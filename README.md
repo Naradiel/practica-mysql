@@ -19,9 +19,9 @@ Los campos NOMBRE, APELLIDO, EMAIL serán Varchar(20).
    ```sh
    cd practica-mysql
       ```
-3. **Importa el archivo .sql:** Asegúrate de tener acceso al servidor de bases de datos MySQL. Ejecuta el siguiente comando para importar el archivo database.sql en tu servidor:
+3. **Importa el archivo .sql:** Asegúrate de tener acceso al servidor de bases de datos MySQL. Ejecuta el siguiente comando para importar el archivo usuario.sql en tu servidor:
    ```sh
-   mysql -u <USUARIO> -p <NOMBRE_DE_LA_BASE_DE_DATOS> < database.sql
+   mysql -u <USUARIO> -p <NOMBRE_DE_LA_BASE_DE_DATOS> < usuario.sql
       ```
     Reemplaza <USUARIO> con el nombre de usuario de tu base de datos y <NOMBRE_DE_LA_BASE_DE_DATOS> con el nombre de la base de datos en la que deseas importar el archivo .sql. 
 
